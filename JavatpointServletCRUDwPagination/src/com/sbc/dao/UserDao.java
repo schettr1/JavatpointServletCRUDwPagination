@@ -14,7 +14,7 @@ public class UserDao {
 
 	static final String DB_URL = "jdbc:mysql://localhost:3306/javaservletcrudwpagination";
 	static final String USER = "root";
-	static final String PASSWORD = "222Network";
+	static final String PASSWORD = "**********";
 	
 	/* get Connection Object */
 	public Connection getConnection() {
