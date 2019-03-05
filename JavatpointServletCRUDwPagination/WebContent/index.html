@@ -1,0 +1,13 @@
+<p><i>In order to use MySQL database, you need 'mysql-connector-java-5.1.18.jar' for MySQL version 5.7</i></p>
+<p><i>Add 'mysql-connector-java-8.0.11.jar' if you are using MySQL version 8. Save the jar file inside 'WEB-INF/lib' folder</i></p>
+<h2>This is 'index.html' page</h2>
+<form action='AddUserServlet' method='POST'>
+	<div>
+		<label for='firstname'>Firstname: </label>
+		<input type='text' name='firstname' > &nbsp;&nbsp;
+		<label for='lastname'>Lastname: </label>
+		<input type='text' name='lastname' > &nbsp;&nbsp;
+		<input type='submit' value='Add User'>
+	</div>
+</form>
+<a href='ListUsersServlet'>List Users</a>
